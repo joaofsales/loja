@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt">
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./css/style.css">
+        <link rel="stylesheet" href="./css/reset.css">
+        <title>Projeto</title>   
+    </head>
+    <body>
+        <!--Primeira grade-->   
+        <header class="grid-layout">
+            <div class="box-layout menu-layout"> 
+                <h3>Meu Logo</h3> 
+                <div class="menu-texto efeito_button">
+                    <ul>
+                        <li class="efeito_button1"><a href="#casa">Casa</a></li> <!--cores quando passar o mouse-->
+                        <li class="efeito_button2"><a href="#meutrabalho">Meu Trabalho</a></li> <!--cores quando passar o mouse-->
+                        <li class="efeito_button3"><a href="#resume">Resume</a></li> <!--cores quando passar o mouse-->
+                        <li class="efeito_button4"><a href="#contato">Contato</a></li> <!--cores quando passar o mouse-->
+                    </ul>
+                </div>
+            </div>
+            <div class="box-layout menu2-layout">
+                <div class="sobre-texto">
+                    <h3>Sobre Mim</h3>
+                    <img src="./img/avatar3.png">
+                    <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                    <p>Lorem ipusm sed vitae justo condimentum, porta lectus vitae, ultricies congue gravida diam non fringilla.</p>
+                </div>
+            </div>
+        </header>
+        <!--Segunda grade-->
+        <section id="meutrabalho" class="grid-layout">
+            <div class="box-layout text-layout">
+                <h3>Meus Trabalhos</h3>
+                <p>Alguns dos meus ultimos projetos.</p>
+                <div class="primeiro-bloco"> 
+                    <img src="./img/coffee.jpg">
+                    <img src="./img/workbench.jpg">
+                </div>
+                <div class="segundo-bloco">
+                    <img src="./img/workbench.jpg">
+                    <img src="./img/coffee.jpg">
+                </div>
+                <div class="terceiro-bloco"> 
+                    <img src="./img/sound.jpg"> 
+                    <img src="./img/workbench.jpg">
+                </div>
+                <p>Apenas me chame de incrivel.</p>                
+            </div>
+            <div class="box-layout resume-text"> 
+                <h2>Resume</h2>
+                <p>Um rascunho do meu CV</p>
+                <div> 
+                    <table class="box_table">
+                        <tr class="top-text">
+                            <td><p>Ano</p></td>
+                            <td><p>Titulo</p></td>
+                            <td><p>Onde</p></td>
+                        </tr>
+                    </table>
+                </div>
+            </div>        
+        </section>
+        <!--Quinta grade-->
+        <section class="grid-layout">
+            <div class="box-layout resumecolor" >
+                <h1>Passar</h1>
+                <div> 
+                    <p>..para uma xícara de café, ou qualquer outra coisa.</p>
+                    <p>Chicago, EUA</p>
+                    <p>.+00 15151515</p>
+                    <p>teste@test.com</p>
+                </div>
+            </div>
+            <div class="box-layout contact-layout">
+                <div> 
+                    <div class="contato-text-section">
+                        <h2>Contato</h2>
+                        <p> entrar em contato</p>
+                    </div>
+                    <form class="contact-form">
+                        <div class="contact-imput"> 
+                            <label>nome</label>
+                            <input type="text" required name="Nome">
+                        </div>
+                        <div class="contact-imput">
+                            <label>Email</label>
+                            <input type="text" required name="Email">
+                        </div>
+                        <div class="contact-imput">
+                            <label>Message</label> 
+                            <input type="text" required name="Message">
+                        </div>
+
+                        <button type="submit">Send</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+            <!--Footer-->
+        <footer>
+            
+        </footer>
+        <script src="./js/principal.js"></script>
+
+    </body>
+</html>

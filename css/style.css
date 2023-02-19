@@ -1,0 +1,254 @@
+.grid-layout {
+    display: flex;
+    justify-content: center;
+}
+
+.box-layout {
+    max-width: 650px;
+    min-width: 650px;
+    min-height: 600px;
+}
+
+.box-layout img {
+    width: 100%;
+}
+
+/* Primeira Grade*/
+.menu-layout {
+    background-color: black;
+}
+
+.menu-layout ul, .menu-layout ul li {
+    width: 100%;
+}
+
+.menu-layout ul li {
+    display: flex;
+    justify-content: center;
+}
+
+.menu-layout h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+    color: #fff;
+}
+
+.menu-texto {
+    margin-top: 150px;
+    padding-top: 16px;
+}
+
+.menu-texto a {
+    text-align: center;
+    font-size: 22px;
+    line-height: 40px;
+    color: #fff;
+    text-decoration: none;
+}
+
+.efeito_button1 :hover{
+   position: relative;
+   background-color: blue;
+   width: 100%;
+}
+
+.efeito_button2 :hover {
+    background-color: green;
+    width: 100%;
+}
+
+.efeito_button3 :hover{
+    background-color: grey;
+    width: 100%;
+}
+
+.efeito_button4 :hover{
+    background-color: brown;
+    width: 100%;
+}
+
+
+/* Segunda Grade*/
+.menu2-layout {
+    background-color: #607d8b;
+}
+
+.menu2-layout img {
+    border-radius: 50%;
+    width: 300px;
+    margin-left: 150px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.sobre-texto p {
+    text-align: center;
+    font-size: 15px;
+    padding-bottom: 40px;
+    color: white;
+}
+
+.sobre-texto h3 {
+    text-align: center;
+    font-size: 50px;
+    margin-top: 70px;
+    color: white;
+}
+/* Terceira Grade*/
+
+.text-layout {
+    background-color: #f1f1f1;
+}
+
+.text-layout h3 {
+    text-align: center;
+    font-size: 30px;
+    margin-top: 70px;
+    color: #000;
+}
+
+.text-layout p {
+    text-align: center;
+    font-size: 15px;
+    margin-top: 70px;
+    color: #000;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+/* imagens teceira grade */
+.primeiro-bloco, .segundo-bloco, .terceiro-bloco {
+    width: 325px;
+    display: flex;
+}
+/* Curriculo*/
+.resume-text{
+    background-color: #3f51b5;
+}
+
+.resume-text > div {
+    padding: 35px;
+    line-height: 1.2;
+
+}
+.resume-text h2 {
+    text-align: center;
+    font-size: 40px;
+    margin-top: 80px;
+    color: #fff;
+}
+
+.box_table {
+    margin-bottom: 25px;
+    
+}
+
+.resume-text p {
+    text-align: center;
+    font-size: 15px;
+    color: #fff;
+    margin-top: 21px;
+}
+
+.top-text p {
+    font-weight: bold;
+}
+
+.white-line {
+    background-color: #ffff;
+}
+
+.white_text {
+    color: white
+}
+
+.resume-text td {
+    padding: 14px;
+}
+
+/* passar*/
+.resumecolor {
+    text-align: center;
+    background-color: #616161;
+    color: #fff;
+    font-size: 15px;
+}
+
+.resumecolor > div{
+    text-align: center;
+    color: #fff;
+    margin-top: 150px;
+}
+
+.resumecolor > div p {
+    margin-bottom: 20px;
+}
+
+.box-layout h1 {
+    text-align: center;
+    font-size: 36px;
+    margin-top: 70px;
+    color: #fff;    
+}
+/* Contato */
+ .contact-layout {
+    background-color: #009688;
+ }
+ 
+ .contact-layout  > div {
+    padding: 20px;
+ }
+
+.contato-text-section h2{ 
+    text-align: left;
+    font-size: 45px;
+    margin-top: 40px;
+    color: #fff;
+}
+
+.contato-text-section p {
+    opacity: 0.5;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.contact-form {
+    background-color: #fff;
+    padding: 48px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-end;
+    margin-top: 30px;
+
+}
+
+.contact-imput label {
+    width: 100%;
+    float: left;
+    margin-bottom: 16px;
+
+}
+
+.contact-imput {
+    width: 100%;
+    margin-bottom: 12px;
+}
+
+.contact-imput input {
+    width: 100%;
+    border:none;
+    border-bottom: 1px solid #ccc;
+}
+
+.contact-form button {
+    background-color: #009688;
+    padding: 16px;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 16px;
+
+}
+
+
+
